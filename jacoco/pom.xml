@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Jacoco.test</groupId>
+  <artifactId>jacoco</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.core -->
+	<dependency>
+	    <groupId>org.jacoco</groupId>
+	    <artifactId>org.jacoco.core</artifactId>
+	    <version>0.8.4</version>
+	</dependency>
+  <!-- https://mvnrepository.com/artifact/com.mountainminds.eclemma/core -->
+	  <!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.cli -->
+	<dependency>
+	    <groupId>org.jacoco</groupId>
+	    <artifactId>org.jacoco.cli</artifactId>
+	    <version>0.8.0</version>
+	</dependency>
+	  <!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.agent -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>org.jacoco.agent</artifactId>
+    <version>0.8.4</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.report -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>org.jacoco.report</artifactId>
+    <version>0.8.4</version>
+</dependency>
+
+	  <!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.agent -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>org.jacoco.agent</artifactId>
+    <version>0.8.4</version>
+    <scope>test</scope>
+</dependency>
+	  
+  </dependencies>
+
+</project>
